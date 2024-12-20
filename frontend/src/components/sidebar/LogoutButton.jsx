@@ -9,7 +9,7 @@ function LogoutButton() {
 				<BiLogOut className='w-6 h-6 text-white cursor-pointer'
         onClick={logout}  />):
         (
-          <spam className="loading loading-spinner"></spam>
+          <div className="loading loading-spinner"></div>
         )}
 			
 			
